@@ -1,8 +1,8 @@
-package softblue.designpatterns.gui;
+package tuyo.designpatterns.gui;
 
 import javax.swing.JFrame;
 
-import softblue.designpatterns.shape.Shape;
+import tuyo.designpatterns.shape.Shape;
 
 public class Window {
 	

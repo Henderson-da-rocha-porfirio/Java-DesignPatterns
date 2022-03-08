@@ -1,6 +1,6 @@
-package softblue.designpatterns.shape;
+package tuyo.designpatterns.shape;
 
-import softblue.designpatterns.Props;
+import tuyo.designpatterns.Props;
 
 public class ShapeFactory {
 

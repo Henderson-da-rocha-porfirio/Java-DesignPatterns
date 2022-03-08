@@ -1,4 +1,4 @@
-package softblue.designpatterns;
+package tuyo.designpatterns;
 
 import java.io.FileInputStream;
 import java.io.IOException;

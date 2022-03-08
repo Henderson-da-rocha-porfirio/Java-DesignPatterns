@@ -1,10 +1,10 @@
-package softblue.designpatterns.gui;
+package tuyo.designpatterns.gui;
 
 import java.awt.Graphics;
 
 import javax.swing.JPanel;
 
-import softblue.designpatterns.shape.Shape;
+import tuyo.designpatterns.shape.Shape;
 
 public class DrawPanel extends JPanel {
 	

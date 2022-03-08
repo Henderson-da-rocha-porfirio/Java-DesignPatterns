@@ -1,4 +1,4 @@
-package softblue.designpatterns.shape;
+package tuyo.designpatterns.shape;
 
 import java.awt.Graphics;
 
