@@ -13,8 +13,9 @@ public class App {
 		Window w = new Window("Shapes", 300, 300);
 		w.show();
 		
-		ShapeAbstractFactory factory = ShapeFactoryProducer.getFactory(false);
-		Shape shape = factory.newShape("circle");
+		ShapeAbstractFactory factory = ShapeFactoryProducer.getFactory(false); // A classe app não enxerga quais factories estão na memória,
+																					//apenas enxerga ShapeAbstractFactory.
+		Shape shape = factory.newShape("circle"); // Como também não enxerga a instancia de que shape está retornando da memória.
 		
 		w.drawShape(shape)   ;
 	}
