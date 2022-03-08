@@ -16,6 +16,6 @@ public class App {
 		ShapeAbstractFactory factory = ShapeFactoryProducer.getFactory(false);
 		Shape shape = factory.newShape("circle");
 		
-		w.drawShape(shape);
+		w.drawShape(shape)   ;
 	}
 }
