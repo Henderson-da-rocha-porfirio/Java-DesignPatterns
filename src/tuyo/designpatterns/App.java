@@ -14,7 +14,7 @@ public class App {
 	public static void main(String[] args) {
 
 		Window w = new Window("Shapes", 300, 300);
-		w.show();
+		w.show()     ;
 		
 		Shape shape = new DashLineShape(new ColorShape(new Square(), Color.YELLOW));
 		
