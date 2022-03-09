@@ -1,1 +1,5 @@
 # Adapter
+## Utilizado quando não há possibilidade de comunicação entre o Cliente e a Classe Alvo (aquela que se quer trabalhar nela ou através dela)
+### 1. Adaptador entre duas classes ou objetos que nao têm conexão. Possui duas formas de se trabalhar, que podemos ter por base duas classes, a Target e a outra a Cliente:
+#### a. Class Adapter: é criada uma classe adapter que herda classe que você está adaptando. No caso, a classe Adapter herda da classe Target. E o Cliente interage com a classe Adapter. Dessa maneira, Cliente e Target interagem por meio do Adapter.
+#### b. Object Adapter: é criado um atributo do Target na classe Adapter e não há relação de herança, mas uso de composição e delegação de chamada. Ou seja, basicamente funciona dessa forma: o Cliente vai usar um método de Adapter que interage com o atributo target para chamar o método que está na classe Target.

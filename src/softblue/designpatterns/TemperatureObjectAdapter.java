@@ -1,12 +1,12 @@
 package softblue.designpatterns;
 
-public class TemperatureObjectAdapter {
+public class TemperatureObjectAdapter { // Exemplo de Adapter com objeto
 
-	private Temperature temperature;
+	private Temperature temperature; // Atributo do tipo Temperature
 
 	public TemperatureObjectAdapter(Temperature temperature) {
 		this.temperature = temperature;
-	}
+	} // Construtor
 
 	public double getValue() {
 		return (temperature.getValue() - 32) * 5 / 9;

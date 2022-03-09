@@ -1,6 +1,6 @@
 package softblue.designpatterns;
 
-public class TemperatureClassAdapter extends Temperature {
+public class TemperatureClassAdapter extends Temperature { // Exemplo de adapter com herança
 
 	@Override
 	public void setValue(double value) {

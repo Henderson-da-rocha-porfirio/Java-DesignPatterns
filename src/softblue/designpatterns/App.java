@@ -6,11 +6,11 @@ public class App {
 
 //		TemperatureClassAdapter adapter = new TemperatureClassAdapter();
 //		adapter.setValue(30);
-//		
+//																			// Exemplo de uso do adapter com Herança
 //		System.out.println(adapter.getValue());
 //		System.out.println(adapter.getValueInFahrenheit());
 		
-		Temperature temperature = new Temperature();
+		Temperature temperature = new Temperature(); 						// Parte descomentada, exemplo de uso de adapter com objeto
 		
 		TemperatureObjectAdapter adapter = new TemperatureObjectAdapter(temperature);
 		adapter.setValue(30);
