@@ -16,8 +16,8 @@ public class App {
 		Window w = new Window("Shapes", 300, 300);
 		w.show()     ;
 		
-		Shape shape = new DashLineShape(new ColorShape(new Square(), Color.YELLOW));
-		
+		Shape shape = new DashLineShape(new ColorShape(new Square(), Color.YELLOW)); //Trabalhando com o Decorator = mudando o comportamento das classes ( das instâncias ). Introduzindo o DashLineShape.
+
 		w.drawShape(shape);
 	}
 }
