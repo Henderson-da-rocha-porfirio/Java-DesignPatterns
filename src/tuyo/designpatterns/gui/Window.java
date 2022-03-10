@@ -7,7 +7,7 @@ import javax.swing.JFrame;
 public class Window {
 	private JFrame frame;
 	
-	public Window(String title, int width, int height) {
+	public Window(String title, int width, int height) { // Esse construtor define características da janela
 		frame = new JFrame();
 		frame.setSize(width, height);
 		frame.setLocation(600, 400);
@@ -16,8 +16,8 @@ public class Window {
 		
 		frame.setLayout(new BorderLayout());
 		
-		frame.add(new ChangeTemperaturePanel(), BorderLayout.CENTER);
-		frame.add(new TextPanel(), BorderLayout.SOUTH);
+		frame.add(new ChangeTemperaturePanel(), BorderLayout.CENTER); // E adiciona dois painéis. Um o ChangeTemperaturePanel
+		frame.add(new TextPanel(), BorderLayout.SOUTH); // e o outro o TextPanel
 	}
 	
 	public void show() {
