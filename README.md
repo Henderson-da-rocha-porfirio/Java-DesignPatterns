@@ -1,4 +1,5 @@
-# Observer
+# Observer & Singleton
+## Utilização dos dois padrões para a compreensão.
 ### 1. É para ser usado em situações que você tem observadores e observados.
 ### 2. Uma série de observadores estão interessados em alguém, e esse, seria o observado. E quando esse tivesse uma mudança, todos os observadores precisam ser notificados dessa mudança.
 ### 3. Uma ideia mais real do conceito desse padrão, é um sistema de marcação de consulta médica. Onde as pessoas ficam na espera de surgir alguma vaga ( observadores ) na agenda ( observado ) do médico no sistema para consulta.
