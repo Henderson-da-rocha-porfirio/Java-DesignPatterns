@@ -4,7 +4,7 @@ public class App {
 
 	public static void main(String[] args) {
 		
-		Person p = new Person("José");
+		Person p = new Person("Josï¿½");
 		p.move(new RunMovement(), 50);
 	}
 }
