@@ -1,10 +1,10 @@
 package tuyo.designpatterns;
 
-public class Suco extends Bebida {
+public class Suco extends Bebida { // herda de Bebida e obrigatoriamente tem que implementar os métodos dela.
 
 	@Override
 	public void adicionarAgua() {
-		System.out.println("Adicionando �gua ao suco");
+		System.out.println("Adicionando água ao suco");
 	}
 
 	@Override
@@ -19,7 +19,7 @@ public class Suco extends Bebida {
 
 	@Override
 	public void adicionarAcucar() {
-		System.out.println("Adicionando a��car ao suco");
+		System.out.println("Adicionando açúcar ao suco");
 	}
 
 	@Override

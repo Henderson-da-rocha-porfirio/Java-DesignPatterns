@@ -15,10 +15,10 @@ public class Cha extends Bebida {
 	@Override
 	public boolean colocarAcucar() {
 		return false;
-	}
+	} // retorna false por não ter o método colocar açúcar ainda.
 
 	@Override
-	public void adicionarAcucar() {
+	public void adicionarAcucar() { // Este método será ignorado pelo retorno false anterior.
 		
 	}
 
