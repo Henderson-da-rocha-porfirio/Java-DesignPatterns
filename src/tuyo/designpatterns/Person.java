@@ -1,4 +1,4 @@
-package softblue.designpatterns;
+package tuyo.designpatterns;
 
 public class Person {
 

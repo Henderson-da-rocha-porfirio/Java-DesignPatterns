@@ -1,4 +1,4 @@
-package softblue.designpatterns;
+package tuyo.designpatterns;
 
 public class RunMovement implements Movement {
 
@@ -14,7 +14,7 @@ public class RunMovement implements Movement {
 			} catch (InterruptedException e) {
 			}
 			
-			System.out.println("Distância percorrida: " + currentDistance + "m");
+			System.out.println("Distï¿½ncia percorrida: " + currentDistance + "m");
 		}
 	}
 }

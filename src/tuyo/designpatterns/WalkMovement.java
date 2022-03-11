@@ -1,4 +1,4 @@
-package softblue.designpatterns;
+package tuyo.designpatterns;
 
 public class WalkMovement implements Movement {
 
@@ -23,7 +23,7 @@ public class WalkMovement implements Movement {
 				System.out.println("Parada para descanso");
 			}
 			
-			System.out.println("Distância percorrida: " + currentDistance + "m");
+			System.out.println("Distï¿½ncia percorrida: " + currentDistance + "m");
 		}
 	}
 }
