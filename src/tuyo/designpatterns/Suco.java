@@ -1,10 +1,10 @@
-package softblue.designpatterns;
+package tuyo.designpatterns;
 
 public class Suco extends Bebida {
 
 	@Override
 	public void adicionarAgua() {
-		System.out.println("Adicionando água ao suco");
+		System.out.println("Adicionando ï¿½gua ao suco");
 	}
 
 	@Override
@@ -19,7 +19,7 @@ public class Suco extends Bebida {
 
 	@Override
 	public void adicionarAcucar() {
-		System.out.println("Adicionando açúcar ao suco");
+		System.out.println("Adicionando aï¿½ï¿½car ao suco");
 	}
 
 	@Override
